@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Merriweather+Sans:ital,wght@1,500&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,300&family=Exo+2:ital,wght@0,400;0,500;1,400&family=Radio+Canada:wght@500&family=Satisfy&display=swap');
+body{
+    background-color: #e7e8dc;
+}
+
+.container {
+    border: 2px solid #b7d5d4;
+    border-radius:30px ;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.7);
+    background-color:  #d8efee;
+    display: flex;
+    width: 80%;
+    height: 100vh;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-left: 100px;
+    
+    overflow: hidden;
+
+}
+h3{
+    text-align: left;
+    padding-left: 50px;
+    font-family: 'Satisfy';
+    font-size: x-large;
+}
+
+.content {
+    text-align: center;
+    
+}
+
+#tittle {
+    width: 60rem;
+    font-size: 20px;
+    border: 1px solid #b7d5d4;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+
+#abstract {
+    resize: none;
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #b7d5d4;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.submit{
+    margin-top: 25px;
+    padding: 16px;
+    border: 1px solid #d8efee;
+    font-family: 'Chivo';
+    font-size: larger;
+    background-color:  aliceblue;
+
+}
+.submit:hover{
+    border:1px solid #b7d5d4;
+    background-color: #cbcbcb;
+   
+}

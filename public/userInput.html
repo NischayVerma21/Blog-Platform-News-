@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Blog</title>
+    <link rel="stylesheet" href="userCss.css">
+</head>
+<body>
+    <form id="blogForm" action="/upload" method="post" enctype="multipart/form-data">
+        <div class="container">
+            <div class="content">
+                <span>
+                    <h3>Tittle:</h3>   <input type="text" id="tittle" placeholder="   Add Title For Your Blog" name="title" required>
+                </span>
+                </div>
+            <div class="content">
+                <h3>Image Upload:</h3>
+                <input type="file" name="image">
+            </div>
+            <div class="content">
+                <h3 class="blog">Blog:</h3>
+                <textarea id="abstract" name="abstract" cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit" class="submit">
+        </div>
+    </form>
+</body>
+
+</html>

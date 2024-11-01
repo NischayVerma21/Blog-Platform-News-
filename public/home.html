@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Show</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container1">
+          <a class="navbar-brand" href="#">
+            <img src="images/Logo.jpeg" alt="Logo" class="logo">
+            <span class="title">Blog Show</span>
+          </a>
+          <div class="last">
+            <div class="home1">
+              <a href="home.html" class="nav-link">Home</a>
+            </div>
+            <div class="nav-item dropdown">
+              <div class="nav-link dropdown-toggle">Categories▼ 
+                <ul class="dropdown-menu">
+                  <li><button onclick="autoMobile()" class="buttonDrop">AutoMobile</button></li>
+                  <li><button onclick="business()" class="buttonDrop">Business</button></li>
+                </ul>
+              </div>
+            </div>
+            <div class="addBlog">
+              <a href="userInput.html" >Add Blog</a>
+            </div>
+            <div class="profile">
+              <img src="images/UserProfile.png" alt="img" class="profileImg">
+              <div class="text"><p id="userName"></p></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="home" id="home"></div>
+      <div id="data-container">
+        <!-- Data will be displayed here -->
+    </div>
+   
+</body>
+<script src="link.js"></script>
+
+</html>
